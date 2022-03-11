@@ -1,0 +1,25 @@
+{
+  "name": "@cthulhi/envr-natv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/functions/environment.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev-pack": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "jest test",
+    "test-unit": "jest unit",
+    "test-int": "jest int"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+  }
+}

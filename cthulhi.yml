@@ -1,0 +1,48 @@
+package:
+  name: Enviroment
+  slug: pack-envr-natv
+  description: Enviroment Package
+  authors:
+    - author:
+        name: Eduardo Segura
+        email: zero.duh@gmail.com
+        role: developer
+  meta:
+    role: envr
+    type: package
+    status: true
+    keywords:
+      - envr
+      - package
+      - native
+  version: 
+    name: abholos
+    number: 0.5.1
+    channel: edge
+    timestamp: null
+    active: true
+  repository:
+    path: xxx
+    branch: master
+ 
+domain:
+  dev:
+    name: 
+    enable: false
+    createRoute53Record: false
+  prod:
+    name: 
+    enable: false
+    createRoute53Record: false
+
+database:
+  primary:
+    dev:
+    prod: 
+    offline:
+
+environment:
+
+dependencies:
+
+dev-dependencies:
